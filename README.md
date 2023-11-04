@@ -1,6 +1,6 @@
 # Code Wars
 Every day I do a code wars challenge to keep my JavaScript sharp and post it here.
-![My Codewars Profile](/code-wars-profile.png)
+![My Codewars Profile](/assets/code-wars-profile.png)
 
 ## How It's Made:
 **Tech used:** JavaScript
