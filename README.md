@@ -59,4 +59,4 @@ function dirReduc(arr){
 This second solution would run n times in its worst case as it uses a single for loop, creating a more efficient, Linear time complexity.
 
 ## Lessons Learned: 
-Using code wars every day has greatly deepened my knowledge in javascript as well as ability to recognise common solutions to different problems.
+Using code wars every day has greatly deepened my knowledge in JavaScript as well as my ability to recognise common solutions to different problems.
