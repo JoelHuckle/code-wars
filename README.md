@@ -9,4 +9,28 @@ After submitting a successful code wars challenge, I copy it to a JS file and pu
 ## Optimizations
 I often go back to files to optimise their speed, readability or level of DRYness.
 
+**Example (dirReduc.js):**
+
+```function dirReduc(arr) {
+  const conflicts = {
+    NORTH: "SOUTH",
+    SOUTH: "NORTH",
+    EAST: "WEST",
+    WEST: "EAST",
+  };
+
+  let conflict = true;
+
+  while (conflict) {
+    conflict = false;
+
+    arr.forEach((n, i) => {
+      if (conflicts[arr[i]] == arr[i + 1]) {
+        arr.splice(i, 2);
+        conflict = true;
+      }
+    });
+  }
+  return res;
+}```
 
