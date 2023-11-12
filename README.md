@@ -32,5 +32,6 @@ I often go back to files to optimise their speed, readability or level of DRYnes
     });
   }
   return res;
-}```
+}
+```
 
