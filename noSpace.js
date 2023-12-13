@@ -1,0 +1,1 @@
+const noSpace = x => x.match(/\w/g).join('');
