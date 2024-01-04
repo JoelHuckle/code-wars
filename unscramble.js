@@ -1,0 +1,1 @@
+const unscramble = scramble => wordList.filter(n => [...n].sort().join() === [...scramble].sort().join())
